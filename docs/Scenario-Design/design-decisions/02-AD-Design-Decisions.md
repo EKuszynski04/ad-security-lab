@@ -33,7 +33,7 @@ The benefits of a traditional department/role based structure hinged on its simp
 
 By using a hybrid structure instead the benefits of using a traditional department/role based structure can be maintained whilst directly addressing the drawbacks. Sorting the OU structure by top level object types and adding sub levels for roles/departments allows for a simple and easy to understand implementation that satisfies the key points outlined in the scenario. The drawbacks are negated as now security filtering doesn’t have to be applied to every single GPO instead through the use of hierarchical OU structure. This reduces the unnecessary policy duplication and removes the need for extensive security filtering.  
 
-![OU Basic Structure](docs/visuals/design-decisions-visuals/light-ou-struct.jpg)
+![OU Basic Structure](visuals/design-decisions-visuals/light-ou-struct.jpg)
 
 # Admin Tiering
 
