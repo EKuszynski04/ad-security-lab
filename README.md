@@ -32,7 +32,8 @@ I have documented the entire lifecycle and every step of this project. All the d
 
 *   📄 [**Project Scenario**](docs/Scenario-Design/scenario/Windows%20AD%20Project%20Scenario.pdf) - The problem, scope and success criteria.
 *   📄 [**Active Directory Design Decisions**](docs/Scenario-Design/design-decisions/AD%20Design%20Decisions%20Document.pdf) - Each decision for the Domain Model, OU Structure, Admin Tiering, LAPS and GPO strategy design.
-*   📄 *SIEM Design & Detections (In Progress)*
+*   📄 [**SIEM Design**](docs/Scenario-Design/SIEM-design/SIEM%20Design%20Document.pdf) - The logging startegry, retention policy amd altergy philosophy for Wazuh.
+
 
 ## 🚀 Project Management 🚀
 
