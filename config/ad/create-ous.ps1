@@ -2,7 +2,7 @@
 $DomainRoot = "DC=school,DC=local"
 
 # Top Level OUs
-$TopOUs = @("School Users", "Computers", "Groups", "Service Accounts", "Tier 0")
+$TopOUs = @("School Users", "School Computers", "Groups", "Service Accounts", "Tier 0")
 
 foreach ($OU in $TopOUs) {
     New-ADOrganizationalUnit -Name $OU -Path $DomainRoot -ProtectedFromAccidentalDeletion $true
@@ -28,7 +28,7 @@ foreach ($Year in $Years) {
 }
 
 # Sub OUs for Computers
-$ComputersPath = "OU=Computers,$DomainRoot"
+$ComputersPath = "OU=School Computers,$DomainRoot"
 $ComputerOUs = @("Workstations", "Servers")
 
 foreach ($SubOU in $ComputerOUs) {
