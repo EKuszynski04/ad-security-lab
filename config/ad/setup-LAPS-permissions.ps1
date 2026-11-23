@@ -1,6 +1,6 @@
 #  File to setup LAPS permissions in AD
 
-# Update Schema
+# Extend Schema
 Update-AdmPwdADSchema
 
 # Allow Domain Admins to read passwords
