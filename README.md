@@ -4,11 +4,11 @@ A lab project demonstrating the design, implementation and defence of a Windows 
 
 ## ⚠️ Project Status ⚠️
 
-> This project is currently in the Implementation phase. Deploying VMs.
+> This project is currently in the SIEM Deployment phase. Deploying Wazuh. Setting up agents.
 
 - [x] **Phase 1: Scenario & Design** *(Complete)*
-- [ ] **Phase 2: Lab Build** (Active Directory Workstations) *(In Progress)*
-- [ ] **Phase 3: SIEM Deployment** (Wazuh)
+- [x] **Phase 2: Lab Build** *(In Review)*
+- [ ] **Phase 3: SIEM Deployment** (Wazuh) *(In Progress)*
 - [ ] **Phase 4: Detection Engineering** 
 - [ ] **Phase 5: Attack Simulation** 
 
