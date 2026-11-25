@@ -1,6 +1,7 @@
 # FS01 Workstation
 $FS01 = "FS01"
 
+# Run commands on FS01 to set share permissions
 Invoke-Command -ComputerName $FS01 -Credential "SCHOOL\Administrator" -ScriptBlock {
     # StaffData Share
     Grant-SmbShareAccess -Name "StaffData" -AccountName "SCHOOL\GG_HR_Staff" -AccessRight Full -Force | Out-Null
